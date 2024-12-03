@@ -38,3 +38,12 @@ ul {
     width: 90%;
     margin: 5%;
   }
+
+  .cabecera {
+    background-color: aquamarine;
+  }
+
+  .logo {
+    width: 80%;
+    margin: 10%;
+  }

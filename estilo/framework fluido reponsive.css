@@ -105,6 +105,14 @@
     margin-left: calc(var(--pcolumna) * 12);
 }
 
+.ver{
+    display: block;
+}
+
+.no-ver{
+    display: none;
+}
+
 @media screen and (min-width: 768px){
     .col-sm-1 {
         float: left;
@@ -153,6 +161,12 @@
     .col-sm-12 {
         float: left;
         width: calc(var(--pcolumna) * 12);
+    }
+    .ver-sm{
+        display: block;
+    }
+    .no-ver-sm{
+        display: none;
     }
 }
 
@@ -204,6 +218,12 @@
     .col-md-12 {
         float: left;
         width: calc(var(--pcolumna) * 12);
+    }
+    .ver-md{
+        display: block;
+    }
+    .no-ver-md{
+        display: none;
     }
 }
 
