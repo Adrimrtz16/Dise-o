@@ -60,10 +60,23 @@
   color: whitesmoke;
 }
 
+.mapa{
+  width: 100%;
+}
+
+.contacto{
+  width: 80%;
+  margin: 2% 10%;
+}
+
 @media screen and (min-width: 768px){
   .foto {
     width: 100%;
     margin: 0%;
+  }
+  .mapa{
+    width: 90%;
+    margin: 5%;
   }
 }
 
