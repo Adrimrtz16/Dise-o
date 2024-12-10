@@ -1,7 +1,4 @@
 .foto {
-  margin: 0;
-  padding: 0;
-  display: block;
   width: 100%;
 }
 
@@ -34,10 +31,39 @@
   border: 1px solid cadetblue;
 }
 
+.seccion {
+  text-align: center;
+}
+
+.fondo1 {
+  background-color: burlywood;
+}
+
+.fotoProducto {
+  width: 80%;
+  margin: 10%;
+  margin-bottom: 0%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 50px #312412;
+  border: burlywood solid 2px;
+}
+
+.descripcion {
+  width: 80%;
+  margin: 10%;
+  
+  text-align: center;
+}
+
+.footer{
+  background-color: rgb(25, 25, 25);
+  color: whitesmoke;
+}
+
 @media screen and (min-width: 768px){
   .foto {
-    width: 70%;
-    margin: 15%;
+    width: 100%;
+    margin: 0%;
   }
 }
 
