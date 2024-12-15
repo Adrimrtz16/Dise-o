@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .foto {
   width: 100%;
 }
@@ -8,27 +12,29 @@
 }
 
 .cabecera {
-  background-color: cadetblue;
+  background-color: #8e622b;
+  color: white;
 }
 
 .logo {
   width: 80%;
   margin: 10%;
+  filter: invert(100%);
 }
 
 .menu {
-  background-color: #ffe13a;
-  color: cadetblue;
+  background-color: rgb(247, 202, 143);
+  color: #8e622b;
   text-align: center;
 }
 
 .elemento:hover {
-  background-color: darkcyan;
-  color: #ffe13a;
+  background-color: #775225;
+  color: burlywood;
 }
 
 .elemento{
-  border: 1px solid cadetblue;
+  border: 1px solid #8e622b;
 }
 
 .seccion {
@@ -36,7 +42,7 @@
 }
 
 .fondo1 {
-  background-color: burlywood;
+  background-color: #deb887;
 }
 
 .fotoProducto {
@@ -44,8 +50,13 @@
   margin: 10%;
   margin-bottom: 0%;
   border-radius: 50%;
-  box-shadow: 1px 1px 50px #312412;
+  box-shadow: 1px 1px 40px #886533;
   border: burlywood solid 2px;
+  transition: transform 0.3s ease;
+}
+
+.fotoProducto:hover {
+  transform: scale(1.15); 
 }
 
 .descripcion {
@@ -69,10 +80,19 @@
   margin: 2% 10%;
 }
 
+.cabecera .row {
+  display: flex;
+  align-items: center;
+}
+
+.centado {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px){
   .foto {
-    width: 100%;
-    margin: 0%;
+    width: 90%;
+    margin: 5%;
   }
   .mapa{
     width: 90%;
