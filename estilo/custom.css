@@ -4,6 +4,7 @@ body {
 
 .foto {
   width: 100%;
+  display: block;/*Quitar el espacio en blanco debajo de la foto*/
 }
 
 .subtitulo {
@@ -19,7 +20,7 @@ body {
 .logo {
   width: 80%;
   margin: 10%;
-  filter: invert(100%);
+  filter: invert(100%);/*para ponerlo de color blanco*/
 }
 
 .menu {
@@ -52,17 +53,16 @@ body {
   border-radius: 50%;
   box-shadow: 1px 1px 40px #886533;
   border: burlywood solid 2px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease; /*Para que la transformacion se haga poco a poco*/
 }
 
 .fotoProducto:hover {
-  transform: scale(1.15); 
+  transform: scale(1.15); /*hacerlo mas grande cuando pasas el raton por encima*/
 }
 
 .descripcion {
   width: 80%;
   margin: 10%;
-  
   text-align: center;
 }
 
@@ -77,15 +77,17 @@ body {
 
 .contacto{
   width: 80%;
-  margin: 2% 10%;
+  margin: 5% 10%;
 }
 
 .cabecera .row {
-  display: flex;
+  display: flex; 
   align-items: center;
+  text-align: center;
+  /*para alinear los elementos de dentro de la cabecera verticalmente*/
 }
 
-.centado {
+.centrado {
   text-align: center;
 }
 
